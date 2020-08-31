@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: springboot-es
+
+elasticsearch:
+  host: 192.168.192.11
+  port: 9200
+  schema: http
+  index:
+    number-of-shards: 3
+    number-of-replicas: 1
