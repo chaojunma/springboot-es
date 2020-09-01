@@ -53,6 +53,7 @@ public class Item {
                             .startObject("title")
                             .field("type", "text")
                             .field("index", "true")
+                            .field("analyzer", "ik_max_word")
                             .endObject()
 
                             .startObject("category")
